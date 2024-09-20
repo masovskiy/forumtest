@@ -1,56 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Topics</title>
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topics</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-  <h1>Forum for Tatar, Bashkort and Nogaybak People</h1>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="topics.html">Topics</a></li>
-      <li><a href="new-topic.html">New Topic</a></li>
-      <li><a href="profile.html">Profile</a></li>
-      <li><a href="#">About Us</a></li>
-    </ul>
-  </nav>
-</header>
-<main>
-  <section id="forum-section">
-    <h2>Recent Topics</h2>
-    <div class="post">
-      <h3 class="post-title">Topic 1</h3>
-      <p class="post-content">Description of Topic 1...</p>
-      <p class="post-meta">Posted by User1</p>
-      <div class="post-footer">
-        <button class="like-button">Like</button>
-        <button class="comment-button">Comment</button>
-      </div>
-      <div class="comments-section">
-        <p><strong>User2:</strong> Great topic!</p>
-      </div>
-    </div>
-    <div class="post">
-      <h3 class="post-title">Topic 2</h3>
-      <p class="post-content">Description of Topic 2...</p>
-      <p class="post-meta">Posted by User3</p>
-      <div class="post-footer">
-        <button class="like-button">Like</button>
-        <button class="comment-button">Comment</button>
-      </div>
-      <div class="comments-section">
-        <!-- Comments go here -->
-      </div>
-    </div>
-  </section>
-</main>
-<footer>
-  <p>&copy; 2024 TForum</p>
-</footer>
-<script src="script.js"></script>
+    <header>
+        <h1>Forum for Tatar, Bashkort and Nogaybak People</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="topics.html">Topics</a></li>
+                <li><a href="new-topic.html">New Topic</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="forum-section">
+            <h2>Recent Topics</h2>
+            <div class="post">
+                <h3 class="post-title">Topic 1</h3>
+                <p class="post-content">Description of Topic 1...</p>
+                <p class="post-meta">Posted by User1</p>
+                <div class="post-footer">
+                    <button class="like-button">Like</button>
+                    <button class="comment-button">Comment</button>
+                </div>
+                <div class="comments-section">
+                    <p><strong>User2:</strong> Great topic!</p>
+                    <!-- Comment form -->
+                    <form class="comment-form">
+                        <input type="text" placeholder="Add a comment..." required>
+                        <button type="submit">Post</button>
+                    </form>
+                </div>
+            </div>
+            <div class="post">
+                <h3 class="post-title">Topic 2</h3>
+                <p class="post-content">Description of Topic 2...</p>
+                <p class="post-meta">Posted by User3</p>
+                <div class="post-footer">
+                    <button class="like-button">Like</button>
+                    <button class="comment-button">Comment</button>
+</div>
+                <div class="comments-section">
+                    <!-- Comments go here -->
+                    <!-- Comment form -->
+                    <form class="comment-form">
+                        <input type="text" placeholder="Add a comment..." required>
+                        <button type="submit">Post</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 TForum</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
