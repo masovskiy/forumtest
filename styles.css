@@ -17,6 +17,7 @@ header {
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
@@ -36,7 +37,7 @@ main {
     margin: 0 auto;
 }
 
-#welcome-section, #forum-section, #new-topic-section {
+#welcome-section, #forum-section, #new-topic-section, #profile-section {
     background: white;
     padding: 20px;
     border-radius: 8px;
@@ -62,7 +63,7 @@ form {
 }
 
 form label {
-        margin-bottom: 5px;
+    margin-bottom: 5px;
     font-weight: bold;
 }
 
@@ -97,4 +98,52 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+.insta-post {
+    margin: 15px 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.insta-post img {
+    width: 100%;
+    height: auto;
+}
+
+.insta-post .post-info {
+    padding: 10px;
+    background-color: white;
+}
+
+.profile-info {
+    padding: 10px;
+}
+
+.actions {
+    margin-top: 10px;
+}
+.actions button {
+    margin-right: 10px;
+}
+
+.comments-section {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.edit-profile {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-profile:hover {
+    background-color: #005bb5;
 }
