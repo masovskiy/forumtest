@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     console.log('Forum loaded');
-
-    // Handle new topic submission
+        // Handle new topic submission
     const form = document.getElementById('new-topic-form');
     if (form) {
         form.addEventListener('submit', function (e) {
