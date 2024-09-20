@@ -1,149 +1,122 @@
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f3f3f3;
-    color: #333;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+  color: #333;
 }
 
 header {
-    background-color: #0066cc;
-    color: white;
-    padding: 1em 0;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #0066cc;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+  display: inline;
+  margin: 0 15px;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 main {
-    padding: 2em;
-    max-width: 800px;
-    margin: 0 auto;
+  padding: 2em;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-#welcome-section, #forum-section, #new-topic-section, #profile-section {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+#welcome-section, #forum-section, #new-topic-section, #profile-section, #news-feed {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 
 .post {
-    margin-bottom: 20px;
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
+  background: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.post-title {
-    margin: 0 0 10px 0;
-    font-size: 1.4em;
-    color: #0066cc;
+.post-header {
+  display: flex;
+  align-items: center;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
+.avatar {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
 }
 
-form label {
-    margin-bottom: 5px;
-    font-weight: bold;
+.post-content img {
+  width: 100%;
+  max-height: 400px;
+  margin-top: 10px;
+  border-radius: 8px;
 }
 
-form input[type="text"], form textarea {
-    margin-bottom: 15px;
-    padding: 10px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-    font-size: 1em;
-    width: 100%;
+.post-user h3 {
+  margin: 0;
 }
 
-form button {
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    background-color: #0066cc;
-    color: white;
-    font-size: 1em;
-    cursor: pointer;
+.post-date {
+  font-size: 0.85em;
+  color: #777;
 }
 
-form button:hover {
-    background-color: #005bb5;
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1em 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-.insta-post {
-    margin: 15px 0;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.insta-post img {
-    width: 100%;
-    height: auto;
-}
-
-.insta-post .post-info {
-    padding: 10px;
-    background-color: white;
-}
-
-.profile-info {
-    padding: 10px;
-}
-
-.actions {
-    margin-top: 10px;
-}
 .actions button {
-    margin-right: 10px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0066cc;
+  color: white;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  background-color: #005bb5;
 }
 
 .comments-section {
-    margin-top: 15px;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
 }
 
 .edit-profile {
-    background-color: #0066cc;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  background-color: #0066cc;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .edit-profile:hover {
-    background-color: #005bb5;
+  background-color: #005bb5;
 }
